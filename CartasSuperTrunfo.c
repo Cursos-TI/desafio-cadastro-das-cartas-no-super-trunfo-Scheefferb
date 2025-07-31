@@ -17,17 +17,52 @@ int main() {
     float PIB_01 = 699.28;
     int pontos_01 = 50;
 
+    printf("Qual é a letra da carta 1?  \n");
+    scanf("%s", &estado_01);
     printf("O estado é: %c\n", estado_01);
-    printf("O código da carta é: %s\n", codigo_01);
-    printf("O nome da cidade é: %s\n", cidade_01);
-    printf("A população é: %d\n", populacao_01);
-    printf("A área é: %.2f\n", area_01);
-    printf("O PIB é: %.2f\n", PIB_01);
-    printf("O número de pontos turisticos é: %d\n", pontos_01);
-  
 
+    printf("Qua é o codigo da carta? \n");
+    scanf("%s", &codigo_01);
+    printf("O código da carta é: %s\n", codigo_01);
+
+    printf("Qual é a cidade? \n");
+    scanf("%s", &cidade_01);
+    printf("O nome da cidade é: %s\n", cidade_01);
     
+    printf("Qual o numero de habitantes?  \n");
+    scanf("%d", populacao_01);
+    printf("A população é: %d\n", populacao_01);
+
+    printf("Qual o tamanho da area da cidade?  \n");
+    scanf("%.2f", &area_01);
+    printf("A área é: %.2f\n", area_01);
     
+
+    printf("Qual é o PIB da cidade?");
+    scanf("%.2f", &PIB_01);
+    printf("O PIB é: %.2f\n", PIB_01);
+
+
+    printf("Qual é o número de pontos turisticos na cidade?");
+    sncaf("%d", &pontos_01);
+    printf("O número de pontos turisticos é: %d\n", pontos_01);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //Estado Numero 2 -  Rio de Janeiro
     char estado_02 = 'B';

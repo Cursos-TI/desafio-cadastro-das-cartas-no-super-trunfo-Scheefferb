@@ -18,7 +18,7 @@ int main() {
     int pontos_01 = 50;
 
     printf("Qual é a letra da carta 1?  \n");
-    scanf("%c", &estado_01);
+    scanf(" %c", &estado_01);
     printf("O estado é: %c\n", estado_01);
 
     printf("Qua é o codigo da carta? \n");
@@ -58,7 +58,7 @@ int main() {
     int pontos_02 = 30;
 
     printf("Qual é a letra da carta 1?  \n");
-    scanf("%c", &estado_02);
+    scanf(" %c", &estado_02);
     printf("O estado é: %c\n", estado_02);
 
     printf("Qua é o codigo da carta? \n");
